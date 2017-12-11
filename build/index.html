@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bikees</title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+
+  <link href="css/normalize--min.css" rel="stylesheet">
+  <link href="css/style--min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="page-header">
+    <h1 class="visually-hidden">Bikees - поиск</h1>
+    <picture>
+      <source media="(max-width:750px)" srcset="img/mobile-logo.png">
+      <img class="page-header__logo" src="img/desktop-logo.png" alt="Панорама дня" width="236" height="59">
+    </picture>
+    <input class="page-header__search" type="search">
+    <button class="page-header__btn-search" type="button" name="btn-search">Поиск</button>
+  </header>
+
+  <main class="page-main">
+    <div class="page-main__fixies" id="fixies">
+      <h1 class="visually-hidden">FIXES - Hisper style.</h1>
+      <picture>
+        <source media="(max-width:750px)" srcset="img/mobile-fixies.png">
+        <img class="page-main__logo  page-main__logo--fixies" src="img/desktop-fixies.png" alt="FIXES" width="422" height="241">
+      </picture>
+      <button class="page-main__btn">Choisir son modèle</button>
+    </div>
+    <div class="page-main__cruisers" id="cruisers">
+      <h1 class="visually-hidden">Cruisers - Hippie style.</h1>
+      <picture>
+        <source media="(max-width:750px)" srcset="img/mobile-cruisers.png">
+        <img class="page-main__logo  page-main__logo--cruisers" src="img/desktop-cruisers.png" alt="Cruisers" width="611" height="242">
+      </picture>
+      <button class="page-main__btn">Choisir son modèle</button>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <h1 class="visually-hidden">Краткая информация</h1>
+    <div class="page-footer__info">
+      <b class="page-footer__title">Bikees.</b>
+      <p class="page-footer__text">PAIEMENT 100% SECURISÉ - DONNÉES CRIPTÉES ET CHIFRÉES.</p>
+      <p class="page-footer__text  page-footer__text--margin"><span>Livraison gratuite à partir de 50€ d’achat</span></p>
+      <p class="page-footer__copyright">©BIKEES.2015</p>
+    </div>
+    <nav class="page-navigation">
+      <ul class="page-navigation__list">
+        <li class="page-navigation__item"><a class="page-navigation__link" href="#fixies">FIXIES</a></li>
+        <li class="page-navigation__item"><a class="page-navigation__link" href="#cruisers">CRUISERS</a></li>
+        <li class="page-navigation__item"><a class="page-navigation__link" href="#">ACCESSOIRES</a></li>
+        <li class="page-navigation__item"><a class="page-navigation__link" href="#">MENTIONS</a></li>
+        <li class="page-navigation__item"><a class="page-navigation__link" href="#">C.G.U</a></li>
+        <li class="page-navigation__item"><a class="page-navigation__link" href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class="newsletter">
+      <b class="newsletter__title">Inscription Newsletter</b>
+      <input class="newsletter__email" type="email" name="newsletter__email" placeholder="Saisissez votre adresse mail">
+      <div class="social">
+        <h1 class="visually-hidden">Вы можете связаться с нами:</h1>
+        <a class="social__btn social__btn--tw" href="#" target="_blank">Twitter</a>
+        <a class="social__btn social__btn--google" href="#" target="_blank">Google</a>
+        <a class="social__btn social__btn--fb" href="#" target="_blank">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script--min.js"></script>
+
+</body>
+
+</html>
